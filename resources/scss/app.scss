@@ -74,7 +74,7 @@ main {
     }
 }
 
-.card {
+.personal_card {
     width: calc((100% / 6) - 1rem);
     margin: 1.5rem 0.5rem;
     .img_container {
@@ -94,7 +94,7 @@ main {
         margin-top: 0.3rem;
     }
 }
-.card:hover {
+.personal_card:hover {
     cursor: pointer;
     opacity: 0.5;
 }
