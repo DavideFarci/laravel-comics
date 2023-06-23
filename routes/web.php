@@ -18,43 +18,43 @@ Route::get('/', function () {
         'navItems' => [
             [
                 'title' => "CHARACTERS",
-                'link' => "#",
+                'link' => "character",
             ],
             [
                 'title' => "COMICS",
-                'link' => "#",
+                'link' => "comics",
             ],
             [
                 'title' => "MOVIES",
-                'link' => "#",
+                'link' => "movies",
             ],
             [
                 'title' => "TV",
-                'link' => "#",
+                'link' => "tv",
             ],
             [
                 'title' => "GAMES",
-                'link' => "#",
+                'link' => "games",
             ],
             [
                 'title' => "COLLECTIBLES",
-                'link' => "#",
+                'link' => "collectibles",
             ],
             [
                 'title' => "VIDEOS",
-                'link' => "#",
+                'link' => "videos",
             ],
             [
                 'title' => "FANS",
-                'link' => "#",
+                'link' => "fans",
             ],
             [
                 'title' => "NEWS",
-                'link' => "#",
+                'link' => "news",
             ],
             [
                 'title' => "SHOP",
-                'link' => "#",
+                'link' => "shop",
             ],
         ],
         'comics' => [
