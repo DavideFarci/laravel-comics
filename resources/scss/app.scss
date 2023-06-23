@@ -1,4 +1,8 @@
 @import "~bootstrap/scss/bootstrap";
+* {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+}
 
 header {
     background-color: white;
@@ -17,8 +21,27 @@ header img {
     cursor: pointer;
 }
 
+.nav {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.nav li {
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+    position: relative;
+    margin-top: 44px;
+    padding-inline: 0.3rem;
+    padding-top: 5px;
+    &:hover {
+        background-color: rgba(2, 130, 249, 0.3);
+    }
+}
+
 .jumbotron {
-    background-image: url(../assets/img/jumbotron.jpg);
+    background-image: url(../../resources/images/jumbotron.jpg);
     height: 25rem;
     background-size: cover;
     background-repeat: no-repeat;
