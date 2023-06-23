@@ -1,11 +1,41 @@
 @import "~bootstrap/scss/bootstrap";
 
-body {
-    background-image: url("../img/picsum16.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+header {
+    background-color: white;
+    color: black;
 }
 
-h1 {
-    color: red;
+.bg_header {
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.jumbotron {
+    background-image: url(../assets/img/jumbotron.jpg);
+    height: 25rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    button {
+        background-color: #0282f9;
+        padding: 0.7rem;
+        position: absolute;
+        bottom: -22px;
+        left: 21rem;
+        &:hover {
+            background-color: #0e68bd;
+        }
+        a {
+            font-size: 1.3em;
+            color: white;
+            text-decoration: none;
+        }
+    }
 }
