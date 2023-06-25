@@ -273,32 +273,462 @@ Route::get('/', function () {
     ]);
 });
 Route::get('/character', function () {
-    return view('character');
+    return view('character', [
+        'navItems' => [
+            [
+                'title' => "CHARACTERS",
+                'link' => "character",
+            ],
+            [
+                'title' => "COMICS",
+                'link' => "comics",
+            ],
+            [
+                'title' => "MOVIES",
+                'link' => "movies",
+            ],
+            [
+                'title' => "TV",
+                'link' => "tv",
+            ],
+            [
+                'title' => "GAMES",
+                'link' => "games",
+            ],
+            [
+                'title' => "COLLECTIBLES",
+                'link' => "collectibles",
+            ],
+            [
+                'title' => "VIDEOS",
+                'link' => "videos",
+            ],
+            [
+                'title' => "FANS",
+                'link' => "fans",
+            ],
+            [
+                'title' => "NEWS",
+                'link' => "news",
+            ],
+            [
+                'title' => "SHOP",
+                'link' => "shop",
+            ],
+        ]
+    ]);
 });
 Route::get('/comics', function () {
-    return view('comics');
+    return view('comics', [
+        'navItems' => [
+            [
+                'title' => "CHARACTERS",
+                'link' => "character",
+            ],
+            [
+                'title' => "COMICS",
+                'link' => "comics",
+            ],
+            [
+                'title' => "MOVIES",
+                'link' => "movies",
+            ],
+            [
+                'title' => "TV",
+                'link' => "tv",
+            ],
+            [
+                'title' => "GAMES",
+                'link' => "games",
+            ],
+            [
+                'title' => "COLLECTIBLES",
+                'link' => "collectibles",
+            ],
+            [
+                'title' => "VIDEOS",
+                'link' => "videos",
+            ],
+            [
+                'title' => "FANS",
+                'link' => "fans",
+            ],
+            [
+                'title' => "NEWS",
+                'link' => "news",
+            ],
+            [
+                'title' => "SHOP",
+                'link' => "shop",
+            ],
+        ]
+    ]);
 });
 Route::get('/movies', function () {
-    return view('movies');
+    return view('movies', [
+        'navItems' => [
+            [
+                'title' => "CHARACTERS",
+                'link' => "character",
+            ],
+            [
+                'title' => "COMICS",
+                'link' => "comics",
+            ],
+            [
+                'title' => "MOVIES",
+                'link' => "movies",
+            ],
+            [
+                'title' => "TV",
+                'link' => "tv",
+            ],
+            [
+                'title' => "GAMES",
+                'link' => "games",
+            ],
+            [
+                'title' => "COLLECTIBLES",
+                'link' => "collectibles",
+            ],
+            [
+                'title' => "VIDEOS",
+                'link' => "videos",
+            ],
+            [
+                'title' => "FANS",
+                'link' => "fans",
+            ],
+            [
+                'title' => "NEWS",
+                'link' => "news",
+            ],
+            [
+                'title' => "SHOP",
+                'link' => "shop",
+            ],
+        ]
+    ]);
 });
 Route::get('/tv', function () {
-    return view('tv');
+    return view('tv', [
+        'navItems' => [
+            [
+                'title' => "CHARACTERS",
+                'link' => "character",
+            ],
+            [
+                'title' => "COMICS",
+                'link' => "comics",
+            ],
+            [
+                'title' => "MOVIES",
+                'link' => "movies",
+            ],
+            [
+                'title' => "TV",
+                'link' => "tv",
+            ],
+            [
+                'title' => "GAMES",
+                'link' => "games",
+            ],
+            [
+                'title' => "COLLECTIBLES",
+                'link' => "collectibles",
+            ],
+            [
+                'title' => "VIDEOS",
+                'link' => "videos",
+            ],
+            [
+                'title' => "FANS",
+                'link' => "fans",
+            ],
+            [
+                'title' => "NEWS",
+                'link' => "news",
+            ],
+            [
+                'title' => "SHOP",
+                'link' => "shop",
+            ],
+        ]
+    ]);
 });
 Route::get('/games', function () {
-    return view('games');
+    return view('games', [
+        'navItems' => [
+            [
+                'title' => "CHARACTERS",
+                'link' => "character",
+            ],
+            [
+                'title' => "COMICS",
+                'link' => "comics",
+            ],
+            [
+                'title' => "MOVIES",
+                'link' => "movies",
+            ],
+            [
+                'title' => "TV",
+                'link' => "tv",
+            ],
+            [
+                'title' => "GAMES",
+                'link' => "games",
+            ],
+            [
+                'title' => "COLLECTIBLES",
+                'link' => "collectibles",
+            ],
+            [
+                'title' => "VIDEOS",
+                'link' => "videos",
+            ],
+            [
+                'title' => "FANS",
+                'link' => "fans",
+            ],
+            [
+                'title' => "NEWS",
+                'link' => "news",
+            ],
+            [
+                'title' => "SHOP",
+                'link' => "shop",
+            ],
+        ]
+    ]);
 });
 Route::get('/collectibles', function () {
-    return view('collectibles');
+    return view('collectibles', [
+        'navItems' => [
+            [
+                'title' => "CHARACTERS",
+                'link' => "character",
+            ],
+            [
+                'title' => "COMICS",
+                'link' => "comics",
+            ],
+            [
+                'title' => "MOVIES",
+                'link' => "movies",
+            ],
+            [
+                'title' => "TV",
+                'link' => "tv",
+            ],
+            [
+                'title' => "GAMES",
+                'link' => "games",
+            ],
+            [
+                'title' => "COLLECTIBLES",
+                'link' => "collectibles",
+            ],
+            [
+                'title' => "VIDEOS",
+                'link' => "videos",
+            ],
+            [
+                'title' => "FANS",
+                'link' => "fans",
+            ],
+            [
+                'title' => "NEWS",
+                'link' => "news",
+            ],
+            [
+                'title' => "SHOP",
+                'link' => "shop",
+            ],
+        ]
+    ]);
 });
 Route::get('/videos', function () {
-    return view('videos');
+    return view('videos', [
+        'navItems' => [
+            [
+                'title' => "CHARACTERS",
+                'link' => "character",
+            ],
+            [
+                'title' => "COMICS",
+                'link' => "comics",
+            ],
+            [
+                'title' => "MOVIES",
+                'link' => "movies",
+            ],
+            [
+                'title' => "TV",
+                'link' => "tv",
+            ],
+            [
+                'title' => "GAMES",
+                'link' => "games",
+            ],
+            [
+                'title' => "COLLECTIBLES",
+                'link' => "collectibles",
+            ],
+            [
+                'title' => "VIDEOS",
+                'link' => "videos",
+            ],
+            [
+                'title' => "FANS",
+                'link' => "fans",
+            ],
+            [
+                'title' => "NEWS",
+                'link' => "news",
+            ],
+            [
+                'title' => "SHOP",
+                'link' => "shop",
+            ],
+        ]
+    ]);
 });
 Route::get('/fans', function () {
-    return view('fans');
+    return view('fans', [
+        'navItems' => [
+            [
+                'title' => "CHARACTERS",
+                'link' => "character",
+            ],
+            [
+                'title' => "COMICS",
+                'link' => "comics",
+            ],
+            [
+                'title' => "MOVIES",
+                'link' => "movies",
+            ],
+            [
+                'title' => "TV",
+                'link' => "tv",
+            ],
+            [
+                'title' => "GAMES",
+                'link' => "games",
+            ],
+            [
+                'title' => "COLLECTIBLES",
+                'link' => "collectibles",
+            ],
+            [
+                'title' => "VIDEOS",
+                'link' => "videos",
+            ],
+            [
+                'title' => "FANS",
+                'link' => "fans",
+            ],
+            [
+                'title' => "NEWS",
+                'link' => "news",
+            ],
+            [
+                'title' => "SHOP",
+                'link' => "shop",
+            ],
+        ]
+    ]);
 });
 Route::get('/news', function () {
-    return view('news');
+    return view('news', [
+        'navItems' => [
+            [
+                'title' => "CHARACTERS",
+                'link' => "character",
+            ],
+            [
+                'title' => "COMICS",
+                'link' => "comics",
+            ],
+            [
+                'title' => "MOVIES",
+                'link' => "movies",
+            ],
+            [
+                'title' => "TV",
+                'link' => "tv",
+            ],
+            [
+                'title' => "GAMES",
+                'link' => "games",
+            ],
+            [
+                'title' => "COLLECTIBLES",
+                'link' => "collectibles",
+            ],
+            [
+                'title' => "VIDEOS",
+                'link' => "videos",
+            ],
+            [
+                'title' => "FANS",
+                'link' => "fans",
+            ],
+            [
+                'title' => "NEWS",
+                'link' => "news",
+            ],
+            [
+                'title' => "SHOP",
+                'link' => "shop",
+            ],
+        ]
+    ]);
 });
 Route::get('/shop', function () {
-    return view('shop');
+    return view('shop', [
+        'navItems' => [
+            [
+                'title' => "CHARACTERS",
+                'link' => "character",
+            ],
+            [
+                'title' => "COMICS",
+                'link' => "comics",
+            ],
+            [
+                'title' => "MOVIES",
+                'link' => "movies",
+            ],
+            [
+                'title' => "TV",
+                'link' => "tv",
+            ],
+            [
+                'title' => "GAMES",
+                'link' => "games",
+            ],
+            [
+                'title' => "COLLECTIBLES",
+                'link' => "collectibles",
+            ],
+            [
+                'title' => "VIDEOS",
+                'link' => "videos",
+            ],
+            [
+                'title' => "FANS",
+                'link' => "fans",
+            ],
+            [
+                'title' => "NEWS",
+                'link' => "news",
+            ],
+            [
+                'title' => "SHOP",
+                'link' => "shop",
+            ],
+        ]
+    ]);
 });
